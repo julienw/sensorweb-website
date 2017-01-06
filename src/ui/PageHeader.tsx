@@ -1,4 +1,5 @@
 import * as React from 'react';
+import FacebookLoginButton from './FacebookLoginButton';
 
 const { default: styled } = require<any>('styled-components');
 
@@ -8,7 +9,7 @@ export default styled((props: any) =>
     <div className="links">
       <a href="#">Contribute!</a>
       <a href="#">Help</a>
-      <a href="#">Sign in / Join</a>
+      <FacebookLoginButton />
     </div>
 </div>)`
   background: white;
